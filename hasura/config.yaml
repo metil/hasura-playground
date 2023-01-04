@@ -1,6 +1,6 @@
 version: 3
 endpoint: http://localhost:8080
-admin_secret: hasurapwd
+admin_secret: ${HASURA_PASSWORD}
 metadata_directory: metadata
 actions:
   kind: synchronous
